@@ -1,0 +1,61 @@
+/* navbar */
+
+
+
+.navbar{
+    padding: 1rem;
+}
+
+.nav-item{
+    font-size: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.nav-link{
+    color: black;
+}
+
+.logo:hover{
+    color: #001E6C;
+}
+
+.nav-link:hover{
+    background-color: rgba(0, 30, 108, .5);
+    color: black;
+    transition: .1s;
+    border-radius: 15px;
+}
+
+
+.main-album{
+    padding-bottom: 3rem;
+    padding-top: 4rem;
+    text-align: center;
+    width: 90%;
+}
+
+.page_title{
+    padding-top: 3rem;
+    width: 90%;
+}
+
+.album-card{
+    border-style: none;
+    margin: auto;
+}
+
+.card-body{
+    color: black;
+}
+
+
+.img-row{
+    padding-bottom: 4rem;
+}
+
+
+footer{
+    background-color: #393e46;
+    padding: 1rem;
+}

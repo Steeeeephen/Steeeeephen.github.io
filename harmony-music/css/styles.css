@@ -1,0 +1,97 @@
+/* fonts
+font-family: 'Caveat', cursive;
+font-family: 'Josefin Sans', sans-serif;
+*/
+
+body{
+    background-color: #FFEBC9;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* navbar */
+
+.navbar{
+    background-color: #FFEBC9;
+}
+
+.brand_title{
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+}
+
+.fas{
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    font-size: 2.5rem;
+    margin-right: 4rem;
+
+}
+
+.navbar-nav{
+    margin-left: 4rem;
+}
+
+.nav-link{
+    color: #753422;
+}
+
+.nav-link:hover {
+    background-color: #D79771;
+    color: #753422;
+}
+
+.nav-link:visited{
+    color: #753422;
+}
+
+
+/* Main */
+
+.banner{
+    background-color: black;
+    color: #FFEBC9;
+    padding: 0;
+}
+
+.banner_text_left{
+    margin-left: 5rem;
+    margin-top: 3rem;
+    width: 65%;
+}
+
+.banner_text_right{
+    margin-right: 5rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    width: 65%;
+}
+
+.banner_p{
+    font-size: 1.5rem;
+}
+
+.brand_name{
+    font-family: 'Caveat', cursive;
+    font-size: 5rem;
+
+}
+
+.banner_hr{
+    color: #FFEBC9;
+    height: 1rem;
+}
+
+.music{
+    background-color: black;
+}
+
+footer{
+    text-align: center;
+}
+
+.footer_logo{
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+}

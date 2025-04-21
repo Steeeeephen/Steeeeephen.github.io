@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Jersey 10", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    position: relative;
+    background-color: #292840;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.game-board {
+    background-color: #cff4ff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.title {
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.score-wrapper {
+    font-size: 3rem;
+}
+
+.play-images {
+    position: relative;
+    height: 200px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+}
+
+
+.emoji {
+    font-size: 6rem;
+}
+
+
+.vl {
+    border-left: 6px solid #8449BF;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.game-board__update {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.player-options {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.player-option__buttons {
+    border: none;
+    border-radius: 10px;
+    background-color: #8449BF;
+    color: #cff4ff;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    padding: .5rem;
+    width: 150px;
+    transition: .2s;
+}
+
+.player-option__buttons:hover {
+    background-color: #4EBFD9;
+    box-shadow: 4px 2px 2px #292840;
+    color: #292840;
+}
+
+.player-option__buttons:active {
+    box-shadow: none;
+
+}

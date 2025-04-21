@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Order</title>
+    <link rel="stylesheet" href="../../css/return.css">
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <a class="return" href="../../index.html"><button>Back to portfolio</button></a>
+
+    <nav class="navbar navbar-expand-md justify-content-center bg-light">
+        <ul class="navbar-nav">
+            <li class="nav-item"> <a class="nav-link" href="../index.html"><i class="fas fa-images logo"></i>Home</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="../photos/photos.html">Gallery</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="../aboutus/aboutus.html">About Us</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="./order.html">Order Now</a> </li>
+        </ul>
+    </nav>
+
+    <div class="page_description">
+
+        <img src="./images/aw_hagia.jpg" alt="" class="img_float_left">
+        
+        <p><em>For the order page, I decided to use tables for the layout. Most sources recommend not using tables for layout, but I decided to try to see how this would turn out. While I was able to achieve the layout I was looking for, I understand why using tables for layout is discouraged. It's definitely an inefficient method, and the same result can be achieved using other methods. It seems to work well enough when designing forms, and this would probably be the only situation I would consider using tables for layout.
+       </em></p>
+
+       <p><em>One of the advantage of flexbox and Bootstrap is the ease of responsive design which is lost when using tables for layout. </em></p>
+
+    </div>
+
+    <div class="container-fluid order_form">
+        
+
+            <form action="">
+                <table>
+                    <tr class="labels">
+                        <td><label for="fname">First Name</label></td>
+                        <td><label for="lname">Last Name</label></td>
+                    </tr>
+                    <tr class="inputs">
+                        <td><input type="text" name="fname" id=""></td>
+                        <td><input type="text" name="lname" id=""></td>
+                    </tr>
+                    <tr class="labels">
+                        <td><label for="s_address">Street Address</label></td>
+                        <td><label for="city">City</label></td>
+                        <td><label for="">Zip Code</label></td>
+                    </tr>
+                    <tr class="inputs">
+                        <td><input type="text" name="s_address" id=""></td>
+                        <td><input type="text" name="city" id=""></td>
+                        <td><input type="text" name="zip_code" id=""></td>
+                    </tr>
+                </table>
+                <div class="payment">
+                    <table>
+                        <tr>
+                            <td><label for="credit_card">Credit Card</label></td>
+                            <td><label for="exp_date">Expiration Date (mmyy)</label></td>
+                            <td><label for="sec_code">Security Code</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="credit_card" id=""></td>
+                            <td><input type="text" name="exp_date" id="" maxlength="4" width="4"></td>
+                            <td><input type="text" name="sec_code" id=""></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" name="" id=""></td>
+                            <td><input type="reset" name="" id=""></td>
+                        </tr>
+                    </table>
+                </div>
+            </form>
+
+            
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

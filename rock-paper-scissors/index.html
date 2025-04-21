@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="../css/return.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<a class="return" href="../index.html"><button>Back to portfolio</button></a>
+
+<main class="game-board">
+    <section class="game-board__header">
+        <div class="title">Rock Paper Scissors</div>
+
+        <div class="score-board">
+            <span class="score-wrapper">Player: <span id="player-score">0</span></span>
+            <span class="score-wrapper">Computer: <span id="computer-score">0</span></span>
+        </div>
+    </section>
+
+
+
+    <section class="play-images">
+
+        <div class="image-wrapper">
+            <div id="player-image" class="emoji">✋</div>
+            <div id="player-image-label">Paper</div>
+        </div>
+
+        <div class="vl"></div>
+
+        <div class="image-wrapper">
+            <div id="computer-image" class="emoji">✋</div>
+            <div id="computer-image-label">Paper</div>
+        </div>
+
+    </section>
+
+
+    <section class="game-board__update"> Choose an option to start... </section>
+
+
+
+    <section class="player-options">
+
+        <button class="player-option__buttons" id="rock">Rock</button>
+        <button class="player-option__buttons" id="paper">Paper</button>
+        <button class="player-option__buttons" id="scissors">Scissors</button>
+    </section>
+
+</main>
+
+
+
+
+<script src="app.js"></script>
+</body>
+</html>

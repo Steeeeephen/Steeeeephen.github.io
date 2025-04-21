@@ -1,0 +1,78 @@
+body{
+    background-color: #F8F9FA;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+/* NAVBAR */
+
+.navbar-nav{
+    /* justify-content: center; */
+    width: 80%;
+}
+
+.logo{
+    height: 7rem;
+    padding-left: 2rem;
+}
+
+.nav-item{
+    padding: 0 3rem;
+}
+
+.nav-link{
+    font-size: 2rem;
+}
+
+.nav-link:hover{
+    background-color: #E39395;
+}
+
+
+/* Main Banner */
+
+.main_banner{
+    background-image: url(../images/auction_3.jpg);
+    color: #F8F9FA;
+    height: 250px;
+}
+
+.main_banner_title{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+.main_banner_text{
+    color: #F8F9FA;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.main_banner_text p{
+    margin: auto;
+    padding: 2rem 0;
+    width: 50%;
+}
+
+.body_main{
+    width: 90%;
+}
+
+.card{
+    margin: 1rem;
+}
+
+.listing_img{
+    height: auto;
+    max-width: 300px;
+}
+
+
+/* footer */
+
+.footer{
+    color: #F8F9FA;
+    margin-top: 2rem;
+}
+

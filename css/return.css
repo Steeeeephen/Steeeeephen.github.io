@@ -1,0 +1,21 @@
+.return {
+    position: fixed;  
+    top: 20px;       
+    right: 20px;      
+    z-index: 5000;    
+  }
+
+.return button {
+    background-color: #8449BF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .return button:hover {
+    background-color: #6d3aae;
+}
+
