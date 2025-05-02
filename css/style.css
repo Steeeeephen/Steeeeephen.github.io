@@ -7,7 +7,7 @@ body {
     height: 100vh;
     box-sizing: border-box;
     font-family: "Rubik", serif;
-    background-color: #223c60;
+    background-color: #141414;
     color: #d6dde0;
 }
 
@@ -119,6 +119,7 @@ ul {
 .hero-image {
     width: 200px;
     height: auto;
+    border-radius: 100%;
 }
 
 .hero-description {
@@ -194,6 +195,16 @@ main {
     margin: 0 1rem;
 }
 
+.email-link {
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all .2s ease;
+}
+
+.email-link:hover {
+    color: #d6dde0;
+}
 
 
 
@@ -234,9 +245,16 @@ main {
 
     .desktop-link {
         margin: 1rem;
+        transition: all .2s ease;
     }
 
+    .desktop-link:hover {
+        transform: scale(1.2);
+    }
 
+    .desktop-link a:hover {
+        color: #0d6efd;
+    }
 
     /* Main Content */
 
@@ -245,15 +263,15 @@ main {
         width: 70%;
     }
 
-    .hero-wrapper{
+    /* .hero-wrapper{
         flex-direction: row;
         justify-content: space-around;
         margin: 4rem auto;
-    }
+    } */
 
     .hero-image {
+        border-radius: 100%;
         margin: 0;
-        width: 100%;
         height: auto;
     }
 
@@ -289,10 +307,10 @@ main {
         font-size: 3rem;
     }
 
-    /* .title-wrapper {
-        flex: 1; 
-        max-width: 50%; 
-    } */
+    .title-wrapper {
+        text-align: center;
+        margin: 2rem auto;
+    }
 
     .skill-list{
         display:grid;
